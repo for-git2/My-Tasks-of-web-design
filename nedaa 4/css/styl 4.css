@@ -1,0 +1,96 @@
+body
+{
+    background: url(../images/Hunter%20.jpg) fixed no-repeat; /* background-image background-attachment: fixed background-repeat: no-repeat;*/
+    background-size:100% 100%;
+    
+        
+}
+div.hidder
+{
+    width: 100%;
+    background: #373638;
+    color: white;
+    display: block;
+    padding: 30px;
+    position: fixed;
+    margin: -20px 0px 0px -7px; /* top right bottom left */  
+}
+h3 
+{
+    float:right;
+    display: inline;
+    margin: -5px 40px 0 0; /* top right bottom left */
+}
+
+h3 span {margin:10px;}
+
+.sp:hover {background: #af075c; padding: 5px}
+
+div.bigger {background: #0680b1; text-align: center;padding: 50px}
+
+div.bigger div
+{
+    
+    display:inline-block;
+    padding: 10px;
+    margin-top: 20px; /*= margin: 20px 0 0 0 */
+    border: 2px solid #d8d5d6;
+    
+}
+
+img
+{
+    width: 250px;
+    height: 300px;
+    padding: 15px
+       
+}
+ div.bigger h2{text-align: center}
+div.bigger div p {display: none; text-transform: capitalize}
+div.bigger div:hover > p {display: inline}
+
+ 
+div.ins
+{
+    background: #bb0b67;
+    margin:120px 250px; /* top=120px right=250 bottom=120px left=120px */
+    width: 800px;
+    padding: 20px;
+    border: 3px groove #3b3c3e;
+    text-transform: uppercase;
+    
+}
+div.final
+{
+    text-align: center;
+    padding: 50px;
+    background: #3b3c3e;
+    border: 2px solid #af075c
+}
+
+div.img
+{
+    
+    background: url(../images/gon&killua.jpg) fixed no-repeat ;/* backgroung-image background-repeat: no-repeat  background-attachment: fixed;*/
+    background-size: cover;
+    height: 200px;
+    padding: 20px;
+    height: 250px
+    
+}
+div.final div.img div.one
+{
+    background-color:rgba(245,38,76,0.5);
+    margin: 10px;
+    padding: 5px;
+}
+div.final div.img div.two
+{
+    background-color:rgba(45,42,210,0.5);
+    margin: 10px;
+    padding: 5px;
+}
+div.final div.img div p
+{
+    padding: 5px
+}
