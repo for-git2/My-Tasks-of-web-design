@@ -1,0 +1,300 @@
+/* **************** start style of header **************** */
+.header 
+{ 
+    background-image: url(../images/food0.jpg);
+    background-size: 100% 100%;
+    height: 500px
+}
+.header h1
+{
+    position: relative;
+    top: 50%;
+    margin-left: 35%;
+    border-top:4px solid black;
+    border-bottom:4px solid black;
+    width: 350px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 50px;
+    color: #e82707
+}
+/* **************** end style of header **************** */
+
+/* **************** start style of navbar **************** */
+.navbar
+{
+    background: #8e1609;
+    padding: 5 20px;
+}
+.navbar h3 
+{
+    background: #333; 
+    color:#8e1609; 
+    width: 100px; 
+    padding: 5px;
+}
+.navbar ul
+{
+    float: right;
+    margin-top: -45px
+}
+.navbar ul li
+{
+    display: inline;
+    margin: 10px
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: #333;
+    font-size:20px
+}
+.navbar ul li a:hover {background: rgba(0,0,0,.5); padding: 10px; color: white}
+/* **************** end style of navbar **************** */
+
+/* **************** start style of next **************** */
+.next
+{
+    text-align: center;
+    margin-top: 50px
+}
+.next > div
+{
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #333;
+    background: #f6ca5a;
+    border-radius: 20px;  
+}
+.next > div i
+{
+    font-size:60px;
+    color: #060606;
+}
+/* **************** end style of next **************** */
+
+/* **************** start style of menu **************** */
+.menu
+{
+    text-align: center;
+    margin: 30px 0;
+    background:#c1b8ab;
+    padding: 20px
+}
+.menu button
+{
+    padding: 10px 20px;
+    background: #0e9012;
+    color: white
+}
+/* **************** end style of menu **************** */
+
+/* **************** start style of foods **************** */
+.foods{ text-align: center; text-transform: capitalize}
+
+.foods > div
+{
+    width: 20%;
+    display: inline-block;
+    height: 300px;
+    background-size: 100% 100%;
+    border: 1px solid #333;
+    margin: 5px;
+}
+.foods > div .hidden
+{
+    width: 20%;
+    height: 300px;
+    background: rgba(0,0,0,.89);
+    text-align: center;
+    display: none;
+    position:absolute;
+    margin-left: -135px
+}
+.foods > div:hover .hidden{ display: inline;}
+.foods > div .hidden i 
+{
+    position: relative;
+    top: 100px;
+    color: antiquewhite;
+}
+.foods > div .hidden h2
+{
+    position: relative;
+    top: 100px; 
+    color: beige
+}
+.foods > div .hidden span
+{
+    position: relative;
+    top: 90px;
+    color: aliceblue;
+}
+/* **************** end style of foods **************** */
+
+/* **************** start style of qus **************** */
+.qus
+{
+    text-align: center;
+    background: #f5a748;
+    margin: 30px 0;
+    padding: 20px
+}
+.qus ul {text-align: center; text-decoration:none}
+
+.qus ul li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #333;
+    margin: 2px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.qus ul li:hover {background: black}
+/* **************** end style of qus **************** */
+
+/* **************** start style of dist **************** */
+.dist > div {float: left} 
+
+.dist .list h2
+{
+    margin: 20px;
+    font-size: 28px;
+    color:#58c10b;
+    
+}
+.dist .list li
+{
+    list-style-image: url(../images/revisi_05-16.png);
+    margin-top: 5px;
+    font-size: 20px;
+    transition: all 1s
+}
+.dist .list li:hover ~ li{color: #270bc1}
+
+.dist li div
+{
+    height: 20px;;
+    background: #cac9c9;
+}
+.dist li div span
+{
+    width: 95%; height: 20px; 
+    background: #21d821; 
+    display: block; 
+    text-align: right; 
+    line-height: 20px
+}
+.dist .imag img
+{
+    height: 300px; 
+    margin-left: 30px;
+    margin: 50px
+}
+.dist .addr {width: 50%}
+.dist .addr > div
+{
+    display: inline-block;
+    text-align: center;
+    width: 320px;
+    margin: 5px;
+    border-bottom: 1px solid #888;
+    padding-bottom: 10px
+    
+}
+.dist .addr >div i
+{
+    margin-left: -250px;
+    color: #ff9800
+}
+.dist .addr >div h3
+{
+    display: inline
+}
+.dist .addr >div span
+{
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+/* **************** end style of dist **************** */
+
+/* **************** start style of form **************** */
+.form { background: #344852; height: 400px; padding: 20px}  /*لو لغيت الارتفاع الباك جروند بيختفي */
+
+.form > div {float: left;}
+
+.form .left {width: 50%;}
+
+.form label {display: block}
+
+.form input
+{
+    margin: 10px 0;
+    background: #3b3d3e;
+    color: white
+}
+.form textarea
+{
+    width: 300px;
+    height: 200px;
+    background: #3b3d3e;
+    color: white
+}
+/* **************** end style of dist **************** */
+
+/* **************** end style of dist **************** */
+.footer 
+{
+    text-align: center;
+    background: #333;
+    padding: 20px
+}
+.footer ul {margin-left: -50px}
+
+.footer ul li 
+{
+    display: inline-block; 
+    text-align: center;
+    margin: 5px
+}
+/* **************** end style of dist **************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
