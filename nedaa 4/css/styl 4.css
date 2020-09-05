@@ -24,7 +24,7 @@ h3
 a{text-decoration: none; color: white} 
 h3 span {margin:10px;}
 
-.sp:hover {background: #af075c; padding: 5px}
+ h3 span:hover {background: #af075c; padding: 5px}
 
 div.bigger {background: #0680b1; text-align: center;padding: 50px}
 
