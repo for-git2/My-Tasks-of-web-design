@@ -115,7 +115,7 @@
     text-align: center;
     display: none;
     position:absolute;
-    margin-left: -135px
+    margin-left: -10%
 }
 .foods > div:hover .hidden{ display: inline; }
 .foods > div .hidden i 

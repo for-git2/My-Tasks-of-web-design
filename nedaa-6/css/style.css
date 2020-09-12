@@ -1,0 +1,129 @@
+/*  start style of body */
+body
+{
+    background: url(../images/back.jpg) fixed;
+    background-size: 100% 100%
+}
+/* end style of body */
+
+/* start style of header */
+a {text-decoration: none; color: black}
+header
+{
+    background: #333;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0
+}
+header ul
+{
+    float: right; 
+    margin-right: 20px
+}
+header ul li
+{
+    display: inline;
+    margin: 5px
+}
+header > a
+{
+    position: relative;
+    top: 15px;
+    left: 10px;
+    background: #710869;
+    padding: 8px;
+}
+header ul li a { color: #710869}
+
+header ul li a:hover { color:black; background:#710869; padding: 10px }
+/* end style of header */
+
+/* start style of article one */
+.one 
+{
+    margin: 30px 0 0 0px;
+    color: white;
+}
+.one > section {float:left}
+article .left {position: fixed}
+article .left a
+{
+    background: #00f;
+    position: relative;
+    left: -100px;
+    width: 100px;
+    padding: 10px;
+    display: block;
+    margin: 1px;
+    text-align: center;
+    transition: 3s;
+    border-radius: 5px
+}
+.one .left a:hover
+{
+    left: 0px;
+    
+}
+.one .right
+{
+    margin-left: 30px;
+    width: 90%
+}
+.one .right > p 
+{
+    background:rgba(0,0,0,.5);
+    padding: 20px;
+    color: white;
+    width: 100%
+    
+}
+.one .right details
+{
+    background: #333;
+    padding: 10px
+}
+/* end style of article one */
+
+/* start style of article two */
+.two
+{
+    margin: 50px 0 0 0
+}
+.two form
+{
+    background: rgba(0,0,0,.9);
+    padding: 30px
+}
+.two form input 
+{
+    width: 100%;
+    background: rgba(204,67,151,.3);
+    padding: 10px
+}
+/* end style of article two */
+
+/* start style of article three */
+.three
+{
+    margin: 50px 0 0 0;
+    background: #710869;
+    padding: 30px
+}
+.three  div h5
+{
+    display: inline
+}
+/* end style of article three */
+
+/* start style of footer */
+footer
+{
+    background: #333;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    margin: 50px 0 0 0
+}
+/* end style of footer */
+

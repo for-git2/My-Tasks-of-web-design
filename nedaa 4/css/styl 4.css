@@ -94,3 +94,19 @@ div.final div.img div p
 {
     padding: 5px
 }
+.check 
+{
+    background: #333;
+    margin: 30px auto;
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+}
+.check a
+{
+    background: #054c6b;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 20px
+}
