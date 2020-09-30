@@ -1,4 +1,8 @@
 /* *************************** start style of header *************************** */
+body{
+    margin:0;
+    padding:0;
+}
 header
 {
     background-image: url(../images/back2.jpg);
